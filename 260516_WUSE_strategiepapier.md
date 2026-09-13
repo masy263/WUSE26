@@ -10,6 +10,7 @@
  4) Nachkäufe werden vorher **ausnahmslos mit KI besprochen** (bei Typ A zur schnellen Ursachenprüfung, bei B und C zur Tiefenanalyse auf existenzielle Risiken).
  5) Nachkäufe erfolgen in diskreten Schritten (max. 1 Nachkauf pro Tag).
  6) **Zeitlicher Puffer:** Pro Einzelwert darf maximal ein Nachkauf pro Quartal (alle 3 Monate) durchgeführt werden, um das Hineinkaufen in ein fallendes Messer während eines schnellen Crashs zu verhindern.
+
 ### Typ A – robuste Qualitätswerte
 
 Diese Werte würde ich als "langsame Grow-Titel" bezeichnen. Ihr Wert wird (voraussichtlich) kontinuierlich steigen und unterliegt nur stark eingeschränkt dem Konjunkturzyklus. Sie sind systemtragend.
@@ -36,7 +37,7 @@ Die Werte sind wirklich abhängig vom Konjunkturzyklus. Die Unternehmen können 
  + Liegt der Wert einer Position 25 % über dem Zielwert, wird verkauft, bis der Zielwert erreicht ist.
  + Der Nachkauf erfolgt nach kurzer Rücksprache mit KI, um zu prüfen, ob existenzielle Probleme vorliegen könnten.
 
-> Einschätzung KI: Das ist dein „Arbeitsbereich“ – hier funktioniert deine Strategie gut, aber: **Zyklen können länger dauern**, als man denkt.
+> Einschätzung KI: Das ist dein „Arbeitsbereich" – hier funktioniert deine Strategie gut, aber: **Zyklen können länger dauern**, als man denkt.
 
 ### Typ C – stark zyklisch / anfällig
 
@@ -191,152 +192,239 @@ Beispiele:
 
 > 260513: **Regel zu Allokation & Rebalancing:** Die Prozentangaben für Regionen und Branchen sind strategische Zielwerte und keine staren Gesetze. Es gilt ein **Toleranzband von +/- 5 %** (absolut). Erst bei einer dauerhaften Überschreitung dieses Korridors wird der Zufluss von neuem Kapital primär in die unterrepräsentierten Sektoren/Regionen gelenkt (z.B. gezielter Aufbau von USOA / TECH bei Zukäufen).
 
-| Name                           | Abkrz. | Symbol  |  WKN   | Branche | Region | Typ | Kommentar                                                                                          |
-| :----------------------------- | :----: | :------ | :----: | :-----: | :----: | :-: | :------------------------------------------------------------------------------------------------- |
-| MSCI Emerging Markets USD Dist | MSCIEM | XEMD.DE | DBX0RB |         |        | ETF |                                                                                                    |
-| Novo Nordisk                   | NOVNOR | NOV.F   | A3EU6F |  GUPH   |  EUGB  |  A  |                                                                                                    |
-| MSCI World USD Dist            | MSCIWD | XDWL.DE | A1XEY2 |         |        | ETF |                                                                                                    |
-| Rio Tinto                      | RIOTIN | CRA1.F  | 855018 |  RENG   |  ROHL  |  B  |                                                                                                    |
-| Piaggio                        | RIAGIO | P1I.F   | A0H0Y6 |  LUXS   |  EUGB  |  C  |                                                                                                    |
-| Lenovo Group                   | LENOVO | LHL.F   | 894983 |  TECH   |  CINA  |  B  |                                                                                                    |
-| Royal Unibrew                  | FAXEDK | 0R1.F   | A14R8E |  BKON   |  EUGB  |  B  |                                                                                                    |
-| Mercedes-Benz Group            | DAIMLR | MBG.F   | 710000 |  LUXS   |  EUGB  |  B  |                                                                                                    |
-| TAKKT                          | TAKTAG | TTK.F   | 744600 |  INMB   |  EUGB  |  C  |                                                                                                    |
-| Mayr Melnhof Karton            | MMKRTN | MYM.F   | 890447 |  INMB   |  EUGB  |  B  |                                                                                                    |
-| Comcast (A)                    | COMCST | CTP2.F  | 157484 |  ISTR   |  USOA  |  A  |                                                                                                    |
-| Permian Resources (A)          | PRMRES | YZ8.F   | A3DTTK |  RENG   |  USOA  |  D  |                                                                                                    |
-| Tsakos Energy                  | TSAKOS | TK41.F  | A2P7ML |  RENG   |  EUGB  |  D  |                                                                                                    |
-| HSBC                           | HSBCGB | HBC1.F  | 923893 |  FINZ   |  EUGB  |  A  |                                                                                                    |
-| OEKOWORLD                      | OEKOWD | VVV3.F  | 540868 |  FINZ   |  EUGB  |  D  |                                                                                                    |
-| Leifheit                       | LEIFHT | LEI.F   | 646450 |  BKON   |  EUGB  |  C  |                                                                                                    |
-| MLP                            | MLPGRP | MLP.F   | 656990 |  FINZ   |  EUGB  |  D  |                                                                                                    |
-| PUMA                           | PUMADE | PUM.F   | 696960 |  LUXS   |  EUGB  |  B  |                                                                                                    |
-| MSCI Europe EUR Dist           | MSCIEU | IQQY.DE | A0MZWQ |         |        | ETF |                                                                                                    |
-| BHP Billiton                   | BHPBIL | BHP1.F  | 850524 |  RENG   |  ROHL  |  B  |                                                                                                    |
-| Freeport McMoRan               | FMCMOR | FPMB.F  | 896476 |  RENG   |  USOA  |  C  |                                                                                                    |
-| Komatsu                        | KMATSU | KOM1.F  | 854658 |  INMB   |  JPKT  |  A  |                                                                                                    |
-| Posco (ADR)                    | POSCOA | PKX.F   | 893094 |  INMB   |  JPKT  |  C  |                                                                                                    |
-| Infineon Technologies AG       | INFNEO | IFX.F   | 623100 |  TECH   |  EUGB  |  B  |                                                                                                    |
-| Sanofi                         | SANOFI | SNW.F   | 920657 |  GUPH   |  EUGB  |  A  |                                                                                                    |
-| DBS Group                      | DBSGRP | DEVL.F  | 880105 |  FINZ   |  SOIN  |  A  |                                                                                                    |
-| Microsoft                      | MCRSFT | MSF.F   | 870747 |  TECH   |  USOA  |  A  |                                                                                                    |
-| Johnson & Johnson              | JOHNX2 | JNJ.F   | 853260 |  GUPH   |  USOA  |  A  |                                                                                                    |
-| Procter & Gamble               | PRCTGM | PRG.F   | 852062 |  BKON   |  USOA  |  A  |                                                                                                    |
-| TSMC                           | TWSMCL | TSFA.F  | 909800 |  TECH   |  JPKT  |  A  |                                                                                                    |
-| Seven & i Holdings             | SEVNNI | S6M.F   | A0F7DY |  BKON   |  JPKT  |  B  | Aktivierung Bank; Stärkt Asien-Basiskonsum                                                         |
-| Infosys                        | INFSYS | IOY.F   | 919668 |  TECH   |  SOIN  |  B  | Aktivierung Bank; Nimmt Klumpenrisiko von US-Tech                                                  |
-| Waste Management               | WASTMG | UWS.F   | 893579 |  ISTR   |  USOA  |  A  | Müllentsorgung USA; Krisenresistenter geht Typ A kaum                                              |
-| S&P Global                     | SPGLOB | MHL.F   | A2AHZ7 |  FINZ   |  USOA  |  A  | Ratingmonopol; US-Finanzpfeiler ohne Bankenrisiko                                                  |
-| Nike                           | NIKEUS | NKE.F   | 866993 |  LUXS   |  USOA  |  B  | Bisher ist LUXS rein europäisch; bringt US-Gegengewicht                                            |
-| Franco-Nevada                  | FRANCO | 3FO.F   | A0M8PX |  RENG   |  ROHL  |  A  | Edelmetall-Streaming; Rohstoffe ohne operativen Stress                                             |
-| Unilever                       | UNILVR | UNV0.F  | A41NM1 |  BKON   |  EUGB  |  A  | Der fehlende, unerschütterliche Typ-A-Anker in EU-BKON                                             |
-| Canadian National Rwy          | CNRAIL | CY2.F   | 897879 |  ISTR   |  ROHL  |  A  | Schienennetz-Monopol; perfekt für Region ROHL und Typ A                                            |
-| Texas Instruments              | TEXASI | TII.F   | 852654 |  TECH   |  USOA  |  A  | Analog-Halbleiter für Industrie; konservativer als TSMC                                            |
-| Sinopharm Group                | SINOPH | X2S.F   | A0N99U |  GUPH   |  CINA  |  B  | Chinas Pharma-Distribution; defensiver als Biotech                                                 |
-| Larsen & Toubro                | LARTOU | LTO.F   | 895354 |  INMB   |  SOIN  |  B  | Indisches Infrastruktur-Monopol; füllt SOIN-INMB-Lücke                                             |
-| Illinois Tool Works            | ILTOOL | ILT.F   | 861219 |  INMB   |  USOA  |  A  | Industriekonzern mit Nischenführerschaft; klassischer US-Compounder                                |
-| Energias Portugues             | ENRGPT | EDP.F   | 906980 |  RENG   |  EUGB  |  A  | Portugiesischer Versorger; starke Netze und Erneuerbare Energien                                   |
-| ASML Holding                   | ASMLHL | ASME.F  | A1J4U4 |  TECH   |  EUGB  |  A  | Europas stärkster Tech-Burggraben; EUV-Monopol, langfristiger Infrastrukturwert                    |
-| Air Liquide                    | AIRLIQ | AIL.F   | 850133 |  INMB   |  EUGB  |  A  | Industriegase-Duopol; außergewöhnlich defensiver Compounder                                        |
-| Emerson Electric               | EMERSE | EMR.F   | 850981 |  INMB   |  USOA  |  A  | Prozessautomatisierung, Messtechnik und Industrieautomation; Dividendenaristokrat                  |
-| TotalEnergies                  | TOTALE | TOTB.F  | 850727 |  RENG   |  EUGB  |  B  | Diversifizierter Energiekonzern mit Öl, LNG, Strom und Erneuerbaren                                |
-| Visa                           | VISAUS | 3V64.F  | A0NC7B |  FINZ   |  USOA  |  A  | Zahlungsnetzwerk mit enormem Burggraben; Finanzinfrastruktur statt Bank                            |
-| Atlas Copco                    | ATLASC | ACO4.F  | A3DLE9 |  INMB   |  EUGB  |  A  | Weltklasse-Kompressoren aus Schweden; enorme Preismacht                                            |
-| National Grid                  | NATGRD | NNGF.F  | A2DQWX |  ISTR   |  EUGB  |  A  | Regulierte Strom- und Gasnetze; außergewöhnlich stabile Cashflows                                  |
-| Chevron                        | CHEVRN | CHV.F   | 852552 |  RENG   |  USOA  |  B  | Konservativer US-Ölkonzern; solide, aber im Depot derzeit keine Priorität                          |
-| Midea Group                    | MIDEAG | 1520.F  | A40NY5 |  INMB   |  CINA  |  B  | Haushaltsgeräte, Robotik (KUKA) und Automation; defensiver als Baumaschinen                        |
-| PetroChina                     | PETROC | PC6.F   | A0M4YQ |  RENG   |  CINA  |  B  | Chinas größter Öl- und Gaskonzern; integriertes Geschäftsmodell mit stabileren Cashflows als CNOOC |
+| Name                           | Abkrz. | Symbol  |  WKN   | Branche | Region | Typ |
+| :----------------------------- | :----: | :------ | :----: | :-----: | :----: | :-: |
+| MSCI Emerging Markets USD Dist | MSCIEM | XEMD.DE | DBX0RB |         |        | ETF |
+| Novo Nordisk                   | NOVNOR | NOV.F   | A3EU6F |  GUPH   |  EUGB  |  A  |
+| MSCI World USD Dist            | MSCIWD | XDWL.DE | A1XEY2 |         |        | ETF |
+| Rio Tinto                      | RIOTIN | CRA1.F  | 855018 |  RENG   |  ROHL  |  B  |
+| Piaggio                        | RIAGIO | P1I.F   | A0H0Y6 |  LUXS   |  EUGB  |  C  |
+| Lenovo Group                   | LENOVO | LHL.F   | 894983 |  TECH   |  CINA  |  B  |
+| Royal Unibrew                  | FAXEDK | 0R1.F   | A14R8E |  BKON   |  EUGB  |  B  |
+| Mercedes-Benz Group            | DAIMLR | MBG.F   | 710000 |  LUXS   |  EUGB  |  B  |
+| TAKKT                          | TAKTAG | TTK.F   | 744600 |  INMB   |  EUGB  |  C  |
+| Mayr Melnhof Karton            | MMKRTN | MYM.F   | 890447 |  INMB   |  EUGB  |  B  |
+| Comcast (A)                    | COMCST | CTP2.F  | 157484 |  ISTR   |  USOA  |  A  |
+| Permian Resources (A)          | PRMRES | YZ8.F   | A3DTTK |  RENG   |  USOA  |  D  |
+| Tsakos Energy                  | TSAKOS | TK41.F  | A2P7ML |  RENG   |  EUGB  |  D  |
+| HSBC                           | HSBCGB | HBC1.F  | 923893 |  FINZ   |  EUGB  |  A  |
+| OEKOWORLD                      | OEKOWD | VVV3.F  | 540868 |  FINZ   |  EUGB  |  D  |
+| Leifheit                       | LEIFHT | LEI.F   | 646450 |  BKON   |  EUGB  |  C  |
+| PUMA                           | PUMADE | PUM.F   | 696960 |  LUXS   |  EUGB  |  B  |
+| MSCI Europe EUR Dist           | MSCIEU | IQQY.DE | A0MZWQ |         |        | ETF |
+| BHP Billiton                   | BHPBIL | BHP1.F  | 850524 |  RENG   |  ROHL  |  B  |
+| Freeport McMoRan               | FMCMOR | FPMB.F  | 896476 |  RENG   |  USOA  |  C  |
+| Komatsu                        | KMATSU | KOM1.F  | 854658 |  INMB   |  JPKT  |  A  |
+| Posco (ADR)                    | POSCOA | PKX.F   | 893094 |  INMB   |  JPKT  |  C  |
+| Infineon Technologies AG       | INFNEO | IFX.F   | 623100 |  TECH   |  EUGB  |  B  |
+| Sanofi                         | SANOFI | SNW.F   | 920657 |  GUPH   |  EUGB  |  A  |
+| DBS Group                      | DBSGRP | DEVL.F  | 880105 |  FINZ   |  SOIN  |  A  |
+| Microsoft                      | MCRSFT | MSF.F   | 870747 |  TECH   |  USOA  |  A  |
+| Johnson & Johnson              | JOHNX2 | JNJ.F   | 853260 |  GUPH   |  USOA  |  A  |
+| Procter & Gamble               | PRCTGM | PRG.F   | 852062 |  BKON   |  USOA  |  A  |
+| TSMC                           | TWSMCL | TSFA.F  | 909800 |  TECH   |  JPKT  |  A  |
+| Seven & i Holdings             | SEVNNI | S6M.F   | A0F7DY |  BKON   |  JPKT  |  B  |
+| Infosys                        | INFSYS | IOY.F   | 919668 |  TECH   |  SOIN  |  B  |
+| Waste Management               | WASTMG | UWS.F   | 893579 |  ISTR   |  USOA  |  A  |
+| S&P Global                     | SPGLOB | MHL.F   | A2AHZ7 |  FINZ   |  USOA  |  A  |
+| Nike                           | NIKEUS | NKE.F   | 866993 |  LUXS   |  USOA  |  B  |
+| Franco-Nevada                  | FRANCO | 3FO.F   | A0M8PX |  RENG   |  ROHL  |  A  |
+| Unilever                       | UNILVR | UNV0.F  | A41NM1 |  BKON   |  EUGB  |  A  |
+| Canadian National Rwy          | CNRAIL | CY2.F   | 897879 |  ISTR   |  ROHL  |  A  |
+| Texas Instruments              | TEXASI | TII.F   | 852654 |  TECH   |  USOA  |  A  |
+| Sinopharm Group                | SINOPH | X2S.F   | A0N99U |  GUPH   |  CINA  |  B  |
+| Larsen & Toubro                | LARTOU | LTO.F   | 895354 |  INMB   |  SOIN  |  B  |
+| Illinois Tool Works            | ILTOOL | ILT.F   | 861219 |  INMB   |  USOA  |  A  |
+| Energias Portugues             | ENRGPT | EDP.F   | 906980 |  RENG   |  EUGB  |  A  |
+| ASML Holding                   | ASMLHL | ASME.F  | A1J4U4 |  TECH   |  EUGB  |  A  |
+| Air Liquide                    | AIRLIQ | AIL.F   | 850133 |  INMB   |  EUGB  |  A  |
+| Emerson Electric               | EMERSE | EMR.F   | 850981 |  INMB   |  USOA  |  A  |
+| TotalEnergies                  | TOTALE | TOTB.F  | 850727 |  RENG   |  EUGB  |  B  |
+| Visa                           | VISAUS | 3V64.F  | A0NC7B |  FINZ   |  USOA  |  A  |
+| Atlas Copco                    | ATLASC | ACO4.F  | A3DLE9 |  INMB   |  EUGB  |  A  |
+| National Grid                  | NATGRD | NNGF.F  | A2DQWX |  ISTR   |  EUGB  |  A  |
+| Chevron                        | CHEVRN | CHV.F   | 852552 |  RENG   |  USOA  |  B  |
+| Midea Group                    | MIDEAG | 1520.F  | A40NY5 |  INMB   |  CINA  |  B  |
+| PetroChina                     | PETROC | PC6.F   | A0M4YQ |  RENG   |  CINA  |  B  |
+| Hoya Corp.                     | HOYAJP | HYB.F   | 856625 |  GUPH   |  JPKT  |  A  |
+| MTR Corporation                | MTRCOR | MRI.F   | 579779 |  ISTR   |  CINA  |  B  |
+| Take-Two Interactive           | TAKTWO | TKE.F   | 914508 |  TECH   |  SOFL  |  C  |
+| Waste Connections              | WASTEC | UI51.F  | A2AKQ7 |  ISTR   |  ROHL  |  A  |
+| SANY Heavy Industry            | SANYHI | 1741.F  | A41QK2 |  INMB   |  CINA  |  C  |
+| Colgate-Palmolive              | COLGAT | CPA.F   | 850667 |  BKON   |  USOA  |  A  |
+| JPMorgan Chase                 | JPMORG | CMC.F   | 850628 |  FINZ   |  USOA  |  A  |
+| Diageo                         | DIAGEO | GUI.F   | 851247 |  BKON   |  EUGB  |  A  |
 
+## Bemerkungen zu den einzelnen Titeln
 
-*1: Sollte gegen was besseres getauscht werden.
+ + **MSCI Emerging Markets USD Dist**: 
+ + **Novo Nordisk**: 
+ + **MSCI World USD Dist**: 
+ + **Rio Tinto**: 
+ + **Piaggio**: 
+ + **Lenovo Group**: 
+ + **Royal Unibrew**: 
+ + **Mercedes-Benz Group**: 
+ + **TAKKT**: 
+ + **Mayr Melnhof Karton**: 
+ + **Comcast (A)**: 
+ + **Permian Resources (A)**: 
+ + **Tsakos Energy**: 
+ + **HSBC**: 
+ + **OEKOWORLD**: 
+ + **Leifheit**: 
+ + **PUMA**: 
+ + **MSCI Europe EUR Dist**: 
+ + **BHP Billiton**: 
+ + **Freeport McMoRan**: 
+ + **Komatsu**: 
+ + **Posco (ADR)**: 
+ + **Infineon Technologies AG**: 
+ + **Sanofi**: 
+ + **DBS Group**: 
+ + **Microsoft**: 
+ + **Johnson & Johnson**: 
+ + **Procter & Gamble**: 
+ + **TSMC**: 
+ + **Seven & i Holdings**: Aktivierung Bank; Stärkt Asien-Basiskonsum
+ + **Infosys**: Aktivierung Bank; Nimmt Klumpenrisiko von US-Tech
+ + **Waste Management**: Müllentsorgung USA; Krisenresistenter geht Typ A kaum
+ + **S&P Global**: Ratingmonopol; US-Finanzpfeiler ohne Bankenrisiko
+ + **Nike**: Bisher ist LUXS rein europäisch; bringt US-Gegengewicht
+ + **Franco-Nevada**: Edelmetall-Streaming; Rohstoffe ohne operativen Stress
+ + **Unilever**: Der fehlende, unerschütterliche Typ-A-Anker in EU-BKON
+ + **Canadian National Rwy**: Schienennetz-Monopol; perfekt für Region ROHL und Typ A
+ + **Texas Instruments**: Analog-Halbleiter für Industrie; konservativer als TSMC
+ + **Sinopharm Group**: Chinas Pharma-Distribution; defensiver als Biotech
+ + **Larsen & Toubro**: Indisches Infrastruktur-Monopol; füllt SOIN-INMB-Lücke
+ + **Illinois Tool Works**: Industriekonzern mit Nischenführerschaft; klassischer US-Compounder
+ + **Energias Portugues**: Portugiesischer Versorger; starke Netze und Erneuerbare Energien
+ + **ASML Holding**: Europas stärkster Tech-Burggraben; EUV-Monopol, langfristiger Infrastrukturwert
+ + **Air Liquide**: Industriegase-Duopol; außergewöhnlich defensiver Compounder
+ + **Emerson Electric**: Prozessautomatisierung, Messtechnik und Industrieautomation; Dividendenaristokrat
+ + **TotalEnergies**: Diversifizierter Energiekonzern mit Öl, LNG, Strom und Erneuerbaren
+ + **Visa**: Zahlungsnetzwerk mit enormem Burggraben; Finanzinfrastruktur statt Bank
+ + **Atlas Copco**: Weltklasse-Kompressoren aus Schweden; enorme Preismacht
+ + **National Grid**: Regulierte Strom- und Gasnetze; außergewöhnlich stabile Cashflows
+ + **Chevron**: Konservativer US-Ölkonzern; solide, aber im Depot derzeit keine Priorität
+ + **Midea Group**: Haushaltsgeräte, Robotik (KUKA) und Automation; defensiver als Baumaschinen. Weltgrößter Haushaltsgeräte-Hersteller; gut handelbar
+ + **PetroChina**: Chinas größter Öl- und Gaskonzern; integriertes Geschäftsmodell mit stabileren Cashflows als CNOOC
+ + **Hoya Corp.**: Doppeltreffer: eröffnet JPKT/GUPH und stärkt die deutlich untergewichtete Region JPKT
+ + **MTR Corporation**: Eröffnet CINA/ISTR; sinnvoller neuer Baustein statt weiterer China-Tech-/Rohstofftitel
+ + **Take-Two Interactive**: GTA-VI-Opportunität; eröffnet SOFL und stärkt bewusst den unterrepräsentierten Typ-C-Anteil
+ + **Waste Connections**: Stärkt die dünn besetzte ROHL-Region mit einem defensiven Qualitätswert. Müllentsorgung Kanada; krisenresistenter Cashflow-Bringer
+ + **SANY Heavy Industry**: Erhöht CINA-Anteil und Typ-C-Quote; bewusster zyklischer Baustein neben Midea. Führender chinesischer Baumaschinenhersteller; deutlich zyklischer
+ + **Colgate-Palmolive**: Hochwertiger defensiver A-Wert; verbreitert US-Basiskonsum neben P&G
+ + **JPMorgan Chase**: Ergänzt S&P Global und Visa um klassische Bankexposition. Größte US-Bank; exzellentes Risikomanagement, aber klassische Bankenrisiken
+ + **Diageo**: Qualitativ starker Basiskonsumwert; wegen hoher EUGB-Belegung derzeit geringere Priorität. Globaler Spirituosen-Marktfuehrer; defensiver EU-Anker
 
-## Perspektivisch
+## Naechste Titel
 
-| Name                 |  WKN   | Branche | Region | Typ | Funktion / Strategischer Grund                                                                     |
-| :------------------- | :----: | :-----: | :----: | :-: | :------------------------------------------------------------------------------------------------- |
-| Caterpillar          | 850598 |  INMB   |  USOA  |  B  | Weltmarktführer für Bau- und Bergbaumaschinen; stark zyklisch                                      |
-| Colgate-Palmolive    | 850667 |  BKON   |  USOA  |  A  | Zahnpasta & Seife; absolut krisensicherer US-Dauerläufer                                           |
-| Stryker              | 864949 |  GUPH   |  USOA  |  A  | Medizintechnik (Prothesen); demografischer Megatrend                                               |
-| Enbridge             | 885427 |  ISTR   |  ROHL  |  A  | Pipeline-Gigant Kanada; bringt ISTR in die Region ROHL                                             |
-| UnitedHealth Group   | 869561 |  GUPH   |  USOA  |  A  | Größter US-Krankenversicherer; extrem robuster Typ A                                               |
-| Automatic Data Proc. | 850347 |  TECH   |  USOA  |  A  | HR- und Lohnabrechnungssoftware; extrem treue Kunden                                               |
-| MTR Corporation      | 552125 |  ISTR   |  CINA  |  B  | Handelbarer Ersatz für China Mobile; Schienenmonopol HK                                            |
-| Hoya Corp.           | 860561 |  GUPH   |  JPKT  |  A  | Japanische Medizintechnik (Linsen); schließt JPKT-Lücke                                            |
-| Diageo               | 851247 |  BKON   |  EUGB  |  A  | Globaler Spirituosen-Marktführer; defensiver EU-Anker                                              |
-| Waste Connections    | A2AMY5 |  ISTR   |  ROHL  |  A  | Müllentsorgung Kanada; krisenresistenter Cashflow-Bringer                                          |
-| Abbott Laboratories  | 850103 |  GUPH   |  USOA  |  A  | US-Medizintechnik & Diagnostik; diversifizierter Typ-A                                             |
-| EssilorLuxottica     | 863195 |  LUXS   |  EUGB  |  A  | Weltmonopol für Brillen; stabilisiert zyklischen Konsum                                            |
-| Midea Group          | A12GAA |  INMB   |  CINA  |  B  | Weltgrößter Haushaltsgeräte-Hersteller; gut handelbar                                              |
-| Tencent Holdings     | A111X9 |  TECH   |  CINA  |  B  | China-Tech-Anker; WeChat-Monopol sichert Cashflows ab                                              |
-| SAP SE               | 716460 |  TECH   |  EUGB  |  A  | Europas führender ERP-Anbieter; hohe Wechselkosten und stabile Cloud-Umsätze                       |
-| Dassault Systèmes    | 901295 |  TECH   |  EUGB  |  A  | CAD/PLM-Weltmarktführer; Industrie-Software mit extrem hoher Kundenbindung                         |
-| Schneider Electric   | 860180 |  INMB   |  EUGB  |  A  | Energieeffizienz und Industrieautomatisierung; globaler Qualitätswert                              |
-| Siemens AG           | 723610 |  INMB   |  EUGB  |  A  | Breiter Industriekonzern mit Automatisierung und Industrie-Software                                |
-| Parker-Hannifin      | 855950 |  INMB   |  USOA  |  A  | Motion-Control-, Hydraulik- und Automatisierungsspezialist; sehr hochwertiges Industriegeschäft    |
-| Deere & Company      | 850866 |  INMB   |  USOA  |  B  | Präzisionslandwirtschaft und Software; attraktiver als klassischer Baumaschinenbau                 |
-| Equinor              | 675213 |  RENG   |  EUGB  |  B  | Norwegischer Öl- und Gasproduzent mit niedrigen Förderkosten                                       |
-| JPMorgan Chase       | 850628 |  FINZ   |  USOA  |  A  | Größte US-Bank; exzellentes Risikomanagement, aber klassische Bankenrisiken                        |
-| Moody's              | 915246 |  FINZ   |  USOA  |  A  | Rating-Duopol gemeinsam mit S&P Global; sehr stabiles Geschäftsmodell                              |
-| CME Group            | A0MW32 |  FINZ   |  USOA  |  A  | Führender Terminbörsenbetreiber; profitiert von Handelsvolumen und Marktvolatilität                |
-| Deutsche Telekom     | 555750 |  ISTR   |  EUGB  |  A  | Europäischer Telekom-Anker mit zusätzlichem Wachstum über T-Mobile US                              |
-| SANY Heavy Industry  | A1J135 |  INMB   |  CINA  |  C  | Führender chinesischer Baumaschinenhersteller; deutlich zyklischer                                 |
-| Zijin Mining         | A0M4ZR |  RENG   |  CINA  |  B  | Internationaler Gold- und Kupferproduzent; attraktiver als reiner Kohlewert                        |
-| China Shenhua Energy | A0M49N |  RENG   |  CINA  |  B  | Integrierter Kohle- und Energiekonzern; langfristig politisch weniger attraktiv                    |
-| Sinopec              | A0M4XN |  RENG   |  CINA  |  B  | Chinas führender Raffinerie- und Chemiekonzern; integrierter Energieversorger mit hoher Liquidität |
+| Name                 |  WKN   | Branche | Region | Typ | N fehlend | Prio. |
+| :------------------- | :----: | :-----: | :----: | --- | --------: | :---: |
+| Schneider Electric   | 860180 |  INMB   |  EUGB  | A   |         1 |       |
+| Siemens AG           | 723610 |  INMB   |  EUGB  | A   |         1 |       |
+| Equinor              | 675213 |  RENG   |  EUGB  | B   |         2 |       |
+| SAP SE               | 716460 |  TECH   |  EUGB  | A   |         2 |       |
+| Dassault Systèmes    | 901295 |  TECH   |  EUGB  | A   |         2 |       |
+| Deutsche Telekom     | 555750 |  ISTR   |  EUGB  | A   |         1 |       |
+| Caterpillar          | 850598 |  INMB   |  USOA  | B   |         2 |   +   |
+| Parker-Hannifin      | 855950 |  INMB   |  USOA  | A   |         2 |       |
+| Deere & Company      | 850866 |  INMB   |  USOA  | B   |         2 |       |
+| Moody's              | 915246 |  FINZ   |  USOA  | A   |         2 |       |
+| CME Group            | A0MW32 |  FINZ   |  USOA  | A   |         2 |       |
+| UnitedHealth Group   | 869561 |  GUPH   |  USOA  | A   |         2 |   +   |
+| Tencent Holdings     | A1138D |  TECH   |  CINA  | B   |         0 |       |
+| Zijin Mining         | A0M4ZR |  RENG   |  CINA  | B   |         1 |       |
+| China Shenhua Energy | A0M49N |  RENG   |  CINA  | B   |         1 |       |
+| Sinopec              | A0M4XN |  RENG   |  CINA  | B   |         1 |       |
+| Enbridge             | 885427 |  ISTR   |  ROHL  | A   |        -1 |       |
+
+## Bemerkungen zu den einzelnen Titeln
+
+ + **Schneider Electric**: Energieeffizienz und Industrieautomatisierung; globaler Qualitätswert
+ + **Siemens AG**: Breiter Industriekonzern mit Automatisierung und Industrie-Software
+ + **Equinor**: Norwegischer Öl- und Gasproduzent mit niedrigen Förderkosten
+ + **SAP SE**: Europas führender ERP-Anbieter; hohe Wechselkosten und stabile Cloud-Umsätze
+ + **Dassault Systèmes**: CAD/PLM-Weltmarktführer; Industrie-Software mit extrem hoher Kundenbindung
+ + **Deutsche Telekom**: Europäischer Telekom-Anker mit zusätzlichem Wachstum über T-Mobile US
+ + **Caterpillar**: Weltmarktfuehrer für Bau- und Bergbaumaschinen; stark zyklisch
+ + **Parker-Hannifin**: Motion-Control-, Hydraulik- und Automatisierungsspezialist; sehr hochwertiges Industriegeschäft
+ + **Deere & Company**: Präzisionslandwirtschaft und Software; attraktiver als klassischer Baumaschinenbau
+ + **Moody's**: Rating-Duopol gemeinsam mit S&P Global; sehr stabiles Geschäftsmodell
+ + **CME Group**: Führender Terminbörsenbetreiber; profitiert von Handelsvolumen und Marktvolatilität
+ + **UnitedHealth Group**: Diversifiziert USOA/GUPH gegenüber J&J in Richtung Krankenversicherung. Groesster US-Krankenversicherer; extrem robuster Typ A.
+ + **Tencent Holdings**: China-Tech-Anker; WeChat-Monopol (als ein Messenger: Bezahlen, Behördengänge, Arzttermine, Shopping, Nachrichten) sichert Cashflows ab
+ + **Zijin Mining**: Internationaler Gold- und Kupferproduzent; attraktiver als reiner Kohlewert
+ + **China Shenhua Energy**: Integrierter Kohle- und Energiekonzern; langfristig politisch weniger attraktiv
+ + **Sinopec**: Chinas führender Raffinerie- und Chemiekonzern; integrierter Energieversorger mit hoher Liquidität
+ + **Enbridge**: Pipeline-Gigant Kanada; bringt ISTR in die Region ROHL
+
+## Ehemalige Titel
+
+| Name | Abkrz. | Symbol |  WKN   | Branche | Region | Typ |
+| :--- | :----: | :----: | :----: | :-----: | :----- | --- |
+| MLP  | MLPGRP | MLP.F  | 656990 |  FINZ   | EUGB   | D   |
 
 ## Nicht handelbar
 
-| Name                |  WKN   | Branche | Region | Typ | Funktion / Strategischer Grund                            |
-| :------------------ | :----: | :-----: | :----: | :-: | :-------------------------------------------------------- |
-| Mindray Bio-Medical | A2PG6H |  GUPH   |  CINA  |  A  | Chinas Medizintechnik-Marktführer; hochsolider Typ-A-Wert |
-| China Mobile        | 909622 |  ISTR   |  CINA  |  B  | Aktivierung Bank; Regulierte, solide China-Cashflows      |
-| Iberdrola           | A0M46B |  RENG   |  EUGB  |  A  | Europas führender Netz- und Erneuerbare-Energien-Konzern  |
+| Name                |  WKN   | Branche | Region | Typ |
+| :------------------ | :----: | :-----: | :----: | :-: |
+| Bharti Airtel       | A0N9BS |  ISTR   |  SOIN  |  B  |
+| Mindray Bio-Medical | A2PG6H |  GUPH   |  CINA  |  A  |
+| China Mobile        | 909622 |  ISTR   |  CINA  |  B  |
+| Iberdrola           | A0M46B |  RENG   |  EUGB  |  A  |
+
+## Bemerkungen zu den einzelnen Titeln
+
+ + **Bharti Airtel**: TITEL NICHT GEFUNDEN (bei TradeRepublic). Indischer Telekom-Duopolist mit Premiumposition, wachsendem ARPU und Afrika-Standbein
+ + **Mindray Bio-Medical**: HANDEL AUSGESETZT (bei TradeRepublic). Chinas Medizintechnik-Marktführer; hochsolider Typ-A-Wert
+ + **China Mobile**: HANDEL AUSGESETZT (bei TradeRepublic). Aktivierung Bank; Regulierte, solide China-Cashflows
+ + **Iberdrola**: HANDEL AUSGESETZT (bei TradeRepublic). Europas führender Netz- und Erneuerbare-Energien-Konzern
 
 ### Regionen-Branchen-Matrix
 
 
 |      | EUGB     | USOA     | CINA     | JPKT     | ROHL     | SOIN     | SOFL     |
 | :--- | :------- | :------- | :------- | :------- | :------- | :------- | :------- |
-| Ant. | 30       | 25       | 10       | 10       | 10       | 10       | 5        |
-| ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| INMB | C:744600 | A:861219 | B:A40NY5 | A:854658 |          | B:895354 |          |
-|      | B:890447 | A:850981 |          | C:893094 |          |          |          |
+| INMB | C:744600 | A:861219 | B:A40NY5 | A:854658 |          | B:895354 |          | (19.3/15-20 %)
+|      | B:890447 | A:850981 | C:A41QK2 | C:893094 |          |          |          |
 |      | A:850133 |          |          |          |          |          |          |
 |      | A:A3DLE9 |          |          |          |          |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| RENG | A:906980 | D:A3DTTK | B:A0M4YQ |          | B:855018 |          |          |
+| RENG | A:906980 | D:A3DTTK | B:A0M4YQ |          | B:855018 |          |          | (17.5/10-20 %)
 |      | D:A2P7ML | C:896476 |          |          | B:850524 |          |          |
 |      | B:850727 | B:852552 |          |          | A:A0M8PX |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| BKON | B:A14R8E | A:852062 |          | B:A0F7DY |          |          |          |
-|      | C:646450 |          |          |          |          |          |          |
+| BKON | B:A14R8E | A:852062 |          | B:A0F7DY |          |          |          | (12.3/10-15 %)
+|      | C:646450 | A:850667 |          |          |          |          |          |
 |      | A:A41NM1 |          |          |          |          |          |          |
+|      | A:851247 |          |          |          |          |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| FINZ | A:923893 | A:A2AHZ7 |          |          |          | A:880105 |          |
-|      | D:656990 | A:A0NC7B |          |          |          |          |          |
-|      | D:540868 |          |          |          |          |          |          |
+| FINZ | A:923893 | A:A2AHZ7 |          |          |          | A:880105 |          | (10.5/10-15 %)
+|      | D:540868 | A:A0NC7B |          |          |          |          |          |
+|      |          | A:850628 |          |          |          |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| GUPH | A:A3EU6F | A:853260 | B:A0N99U |          |          |          |          |
+| GUPH | A:A3EU6F | A:853260 | B:A0N99U | A:856625 |          |          |          | ( 8.8/10-15 %)
 |      | A:920657 |          |          |          |          |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| TECH | B:623100 | A:870747 | B:894983 | A:909800 |          | B:919668 |          |
+| TECH | B:623100 | A:870747 | B:894983 | A:909800 |          | B:919668 | C:914508 | (14.0/10-15 %)
 |      | A:A1J4U4 | A:852654 |          |          |          |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| LUXS | C:A0H0Y6 | B:866993 |          |          |          |          |          |
+| LUXS | C:A0H0Y6 | B:866993 |          |          |          |          |          | ( 7.0/ 5-10 %)
 |      | B:710000 |          |          |          |          |          |          |
 |      | B:696960 |          |          |          |          |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| ISTR | A:A2DQWX | A:157484 |          |          | A:897879 |          |          |
-|      |          | A:893579 |          |          |          |          |          |
+| ISTR | A:A2DQWX | A:157484 | B:579779 |          | A:897879 |          |          | (10.5/ 5-10 %)
+|      |          | A:893579 |          |          | A:A2AKQ7 |          |          |
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| Summ | 21       | 14       | 4        | 4        | 4        | 3        |          |
-| ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| A:24 | 9        | 10       | 0        | 2        | 2        | 1        | 0        |
-| B:17 | 6        | 2        | 4        | 1        | 2        | 2        | 0        |
-| C:05 | 3        | 1        | 0        | 1        | 0        | 0        | 0        |
-| D:04 | 3        | 1        | 0        | 0        | 0        | 0        | 0        |
+| A:29 | 10       | 12       | 0        | 3        | 3        | 1        | 0        | (50.8/50%)
+| B:18 | 6        | 2        | 5        | 1        | 2        | 2        | 0        | (31.6/35%)
+| C:07 | 3        | 1        | 1        | 1        | 0        | 0        | 1        | (12.3/15%)
+| D:03 | 2        | 1        | 0        | 0        | 0        | 0        | 0        | ( 5.3/ 0%)
+| = 57 | 21       | 16       | 6        | 5        | 5        | 3        | 1        |
+        (36.8/30%) (28.1/25%) (10.5/10%) ( 8.7/10%) ( 8.7/10%) ( 5.3/10%) ( 1.8/ 5%)       
 
-    50
 
 ## ToDos für (viel) später
 
@@ -344,4 +432,3 @@ Beispiele:
    - Einheitliche Regel für multinationale Konzerne (Rio Tinto, Shell, Linde, Unilever, BHP, ...)
  + Klassifizierung nach feineren Kategorien (A+, A, B+, B, ...)
  + Detaillierte Prüfung der Branchen- und Regionenzuordnung
-

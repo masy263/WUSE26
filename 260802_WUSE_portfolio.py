@@ -430,6 +430,7 @@ def fct_calculatedVkThres(transactions, portfolio):
         valueRaise = TYP_D_SELL_INCREASE
 
       if (type == "ETF"): keepGoing = False
+      if not transaction[AMOUNT_OF_SHARES] > 0: keepGoing = False
 
       if keepGoing:
         targetValue    = transaction[TARGET_VALUE]
@@ -574,7 +575,7 @@ def fct_exportPortfolioStatus(transactions, portfolio, priceFile=PRICE_FILE, out
 
 
   with open(outFile, "w") as fid:
-    fid.write("WKN     Kurz    Anzahl       akt. Kurs  IVST      Wert      Anstieg   (relativ)   \n")
+    fid.write("WKN     Kurz    Anzahl       akt. Kurs  Zielwert   IVST      Wert      Anstieg   (relativ)   \n")
 
   for wkn in portfolio:
     title           = portfolio[wkn]
@@ -590,6 +591,7 @@ def fct_exportPortfolioStatus(transactions, portfolio, priceFile=PRICE_FILE, out
     outStr  = "%-6s  %-6s  " % (wkn, title["Kurz"])
     outStr += "%11.6f  " % amount
     outStr += "%9.4f  " % price
+    outStr += "%9.4f  " % lastTransaction[TARGET_VALUE]
     outStr += "%8.2f  " % ivstSum
     outStr += "%8.2f  " % value
     outStr += "%+8.2f  " % absRaise
@@ -603,7 +605,7 @@ def fct_exportPortfolioStatus(transactions, portfolio, priceFile=PRICE_FILE, out
     portfolio[wkn]  = title
 
     # check for trade action demand
-    if title["Typ"] in ["A", "B", "C", "D"]:
+    if title["Typ"] in ["A", "B", "C", "D"] and lastTransaction[AMOUNT_OF_SHARES] > 0:
 
       actionFlag = False
       vkValue    = lastTransaction[VK_VALUE]

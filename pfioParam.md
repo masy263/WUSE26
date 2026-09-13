@@ -53,3 +53,11 @@
 | Chevron                        | CHEVRN | CHV.F   | 852552 |  RENG   |  USOA  |  B  |
 | Midea Group                    | MIDEAG | 1520.F  | A40NY5 |  INMB   |  CINA  |  B  |
 | PetroChina                     | PETROC | PC6.F   | A0M4YQ |  RENG   |  CINA  |  B  |
+| Hoya Corp.                     | HOYAJP | HYB.F   | 856625 |  GUPH   |  JPKT  |  A  |
+| MTR Corporation                | MTRCOR | MRI.F   | 579779 |  ISTR   |  CINA  |  B  |
+| Take-Two Interactive           | TAKTWO | TKE.F   | 914508 |  TECH   |  SOFL  |  C  |
+| Waste Connections              | WASTEC | UI51.F  | A2AKQ7 |  ISTR   |  ROHL  |  A  |
+| SANY Heavy Industry            | SANYHI | 1741.F  | A41QK2 |  INMB   |  CINA  |  C  |
+| Colgate-Palmolive              | COLGAT | CPA.F   | 850667 |  BKON   |  USOA  |  A  |
+| JPMorgan Chase                 | JPMORG | CMC.F   | 850628 |  FINZ   |  USOA  |  A  |
+| Diageo                         | DIAGEO | GUI.F   | 851247 |  BKON   |  EUGB  |  A  |
