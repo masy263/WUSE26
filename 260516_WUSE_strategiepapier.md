@@ -47,7 +47,7 @@ Die Werte sind stark abhängig vom Konjunkturzyklus. Die Unternehmen sind stark 
 
  + Diese Werte sollen 15 % des Portfolios ausmachen.
  + Diese Werte dürfen maximal **einmal in Folge** nachgekauft werden. *Die Nachkaufzählung wird nur zurückgesetzt, wenn ein Verkauf stattgefunden hat*
- + Liegt der Wert einer Position 10 % unter dem Zielwert, wird in Höhe von 50 % der Differenz zum Zielwert nachgekauft. *Die Nachkaufsumme muss mindestens 50 EUR betragen.*
+ + Liegt der Wert einer Position 20 % unter dem Zielwert, wird in Höhe von 50 % der Differenz zum Zielwert nachgekauft. *Die Nachkaufsumme muss mindestens 50 EUR betragen.*
  + Liegt der Wert einer Position 20 % über dem Zielwert, wird verkauft, bis der Zielwert erreicht ist.
  + Der Nachkauf erfolgt nach kurzer Rücksprache mit KI, um zu prüfen, ob existenzielle Probleme vorliegen könnten.
 
@@ -75,6 +75,11 @@ Diese Werte sind riskant und nicht "anfängertauglich".
 | ROHL   | Rohstoffländer (Kanada, Australien, Brasilien etc.) |   10 % |
 | SOIN   | Indien & Südostasien                                |   10 % |
 | SOFL   | Sonderfälle / Opportunitäten                        |    5 % |
+
+### SOFL – Sonderfälle / Opportunitäten (5 %)
+
+SOFL umfasst bewusst eingegangene Sondersituationen, deren Investmentthese wesentlich von einem konkreten Ereignis, Turnaround, einer außergewöhnlichen Bewertung oder einer anderen zeitlich bzw. sachlich begrenzten Opportunität abhängt. Titel in SOFL werden von ihrer geografischen Heimatregion entkoppelt und ausschließlich SOFL zugerechnet. Sie erhöhen damit beispielsweise weder USOA noch EUGB oder CINA.
+SOFL ist auf 5 % des Portfolios begrenzt und dient nicht dazu, reguläre regionale Übergewichtungen zu umgehen.
 
 ## Branchendefinitionen
 
@@ -269,7 +274,7 @@ Beispiele:
  + **Mayr Melnhof Karton**: 
  + **Comcast (A)**: 
  + **Permian Resources (A)**: 
- + **Tsakos Energy**: 
+ + **Tsakos Energy**: 260916 auf Typ C hochgestuft: (Claude) Griechischer Tanker-Operator mit jahrzehntelanger Zykluserfahrung; nicht strukturell gebrochen, sondern extrem frachtratenabhängig – Nachkauf bei −20 % bewusst und einmalig einsetzen, nicht als Automatismus. (ChatGPT) Tankerreederei mit hoher Marktzyklik; langfristige Charterverträge stabilisieren Cashflows, Spot-/Profit-Sharing-Anteil schafft jedoch erhebliche Ergebnisvolatilität. Solides operatives Geschäft, aber hoher Kapitalbedarf und Schifffahrtszyklus rechtfertigen Typ C.
  + **HSBC**: 
  + **OEKOWORLD**: 
  + **Leifheit**: 
@@ -322,7 +327,6 @@ Beispiele:
 
 | Name                  |  WKN   | Branche | Region | Typ | N fehlend | Prio. |
 | :-------------------- | :----: | :-----: | :----: | --- | --------: | :---: |
-| Schneider Electric    | 860180 |  INMB   |  EUGB  | A   |         1 |       |
 | Siemens AG            | 723610 |  INMB   |  EUGB  | A   |         1 |       |
 | Equinor               | 675213 |  RENG   |  EUGB  | B   |         2 |       |
 | SAP SE                | 716460 |  TECH   |  EUGB  | A   |         2 |       |
@@ -331,20 +335,14 @@ Beispiele:
 | Caterpillar           | 850598 |  INMB   |  USOA  | B   |         2 |       |
 | Parker-Hannifin       | 855950 |  INMB   |  USOA  | A   |         2 |       |
 | Deere & Company       | 850866 |  INMB   |  USOA  | B   |         2 |       |
-| Moody's               | 915246 |  FINZ   |  USOA  | A   |         2 |       |
-| CME Group             | A0MW32 |  FINZ   |  USOA  | A   |         2 |       |
-| UnitedHealth Group    | 869561 |  GUPH   |  USOA  | B   |         2 |   +   |
+| UnitedHealth Group    | 869561 |  GUPH   |  USOA  | B   |         2 | check |
 | Tencent Holdings      | A1138D |  TECH   |  CINA  | B   |         0 |       |
 | Zijin Mining          | A0M4ZR |  RENG   |  CINA  | B   |         1 |       |
 | China Shenhua Energy  | A0M49N |  RENG   |  CINA  | B   |         1 |       |
 | Sinopec               | A0M4XN |  RENG   |  CINA  | B   |         1 |       |
 | Enbridge              | 885427 |  ISTR   |  ROHL  | A   |        -1 |       |
 | HDFC Bank             | 694482 |  FINZ   |  SOIN  | B   |         2 |       |
-| Hindustan Unilever    | 946066 |  BKON   |  SOIN  | A   |         2 |   +   |
-| Sea Limited           | A2H5M3 |  TECH   |  SOIN  | C   |         2 |   +   |
-| Reliance Industries   |   ?    |  RENG   |  SOIN  | B   |         2 |   +   |
-| Asian Paints          |   ?    |  BKON   |  SOIN  | A   |         2 |       |
-| Keyence               |   ?    |  INMB   |  JPKT  | A   |         1 |  ++   |
+| Reliance Industries   | 884241 |  RENG   |  SOIN  | B   |         2 |   +   |
 | Toyota Motor          | 853510 |  LUXS   |  JPKT  | B   |         1 |       |
 | Tokio Marine Holdings |   ?    |  FINZ   |  JPKT  | A   |         1 |  ++   |
 | Samsung Electronics   |   ?    |  TECH   |  JPKT  | B   |         1 |       |
