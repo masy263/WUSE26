@@ -320,45 +320,83 @@ Beispiele:
 
 ## Naechste Titel
 
-| Name                 |  WKN   | Branche | Region | Typ | N fehlend | Prio. |
-| :------------------- | :----: | :-----: | :----: | --- | --------: | :---: |
-| Schneider Electric   | 860180 |  INMB   |  EUGB  | A   |         1 |       |
-| Siemens AG           | 723610 |  INMB   |  EUGB  | A   |         1 |       |
-| Equinor              | 675213 |  RENG   |  EUGB  | B   |         2 |       |
-| SAP SE               | 716460 |  TECH   |  EUGB  | A   |         2 |       |
-| Dassault Systèmes    | 901295 |  TECH   |  EUGB  | A   |         2 |       |
-| Deutsche Telekom     | 555750 |  ISTR   |  EUGB  | A   |         1 |       |
-| Caterpillar          | 850598 |  INMB   |  USOA  | B   |         2 |   +   |
-| Parker-Hannifin      | 855950 |  INMB   |  USOA  | A   |         2 |       |
-| Deere & Company      | 850866 |  INMB   |  USOA  | B   |         2 |       |
-| Moody's              | 915246 |  FINZ   |  USOA  | A   |         2 |       |
-| CME Group            | A0MW32 |  FINZ   |  USOA  | A   |         2 |       |
-| UnitedHealth Group   | 869561 |  GUPH   |  USOA  | A   |         2 |   +   |
-| Tencent Holdings     | A1138D |  TECH   |  CINA  | B   |         0 |       |
-| Zijin Mining         | A0M4ZR |  RENG   |  CINA  | B   |         1 |       |
-| China Shenhua Energy | A0M49N |  RENG   |  CINA  | B   |         1 |       |
-| Sinopec              | A0M4XN |  RENG   |  CINA  | B   |         1 |       |
-| Enbridge             | 885427 |  ISTR   |  ROHL  | A   |        -1 |       |
+| Name                  |  WKN   | Branche | Region | Typ | N fehlend | Prio. |
+| :-------------------- | :----: | :-----: | :----: | --- | --------: | :---: |
+| Schneider Electric    | 860180 |  INMB   |  EUGB  | A   |         1 |       |
+| Siemens AG            | 723610 |  INMB   |  EUGB  | A   |         1 |       |
+| Equinor               | 675213 |  RENG   |  EUGB  | B   |         2 |       |
+| SAP SE                | 716460 |  TECH   |  EUGB  | A   |         2 |       |
+| Dassault Systèmes     | 901295 |  TECH   |  EUGB  | A   |         2 |       |
+| Deutsche Telekom      | 555750 |  ISTR   |  EUGB  | A   |         1 |       |
+| Caterpillar           | 850598 |  INMB   |  USOA  | B   |         2 |       |
+| Parker-Hannifin       | 855950 |  INMB   |  USOA  | A   |         2 |       |
+| Deere & Company       | 850866 |  INMB   |  USOA  | B   |         2 |       |
+| Moody's               | 915246 |  FINZ   |  USOA  | A   |         2 |       |
+| CME Group             | A0MW32 |  FINZ   |  USOA  | A   |         2 |       |
+| UnitedHealth Group    | 869561 |  GUPH   |  USOA  | B   |         2 |   +   |
+| Tencent Holdings      | A1138D |  TECH   |  CINA  | B   |         0 |       |
+| Zijin Mining          | A0M4ZR |  RENG   |  CINA  | B   |         1 |       |
+| China Shenhua Energy  | A0M49N |  RENG   |  CINA  | B   |         1 |       |
+| Sinopec               | A0M4XN |  RENG   |  CINA  | B   |         1 |       |
+| Enbridge              | 885427 |  ISTR   |  ROHL  | A   |        -1 |       |
+| HDFC Bank             | 694482 |  FINZ   |  SOIN  | B   |         2 |       |
+| Hindustan Unilever    | 946066 |  BKON   |  SOIN  | A   |         2 |   +   |
+| Sea Limited           | A2H5M3 |  TECH   |  SOIN  | C   |         2 |   +   |
+| Reliance Industries   |   ?    |  RENG   |  SOIN  | B   |         2 |   +   |
+| Asian Paints          |   ?    |  BKON   |  SOIN  | A   |         2 |       |
+| Keyence               |   ?    |  INMB   |  JPKT  | A   |         1 |  ++   |
+| Toyota Motor          | 853510 |  LUXS   |  JPKT  | B   |         1 |       |
+| Tokio Marine Holdings |   ?    |  FINZ   |  JPKT  | A   |         1 |  ++   |
+| Samsung Electronics   |   ?    |  TECH   |  JPKT  | B   |         1 |       |
+| Recruit Holdings      |   ?    |  TECH   |  JPKT  | B   |         1 |       |
+| CSL Limited           |   ?    |  GUPH   |  ROHL  | B   |         1 |       |
+| Royal Bank of Canada  | 852173 |  FINZ   |  ROHL  | A   |         1 |   +   |
+| Nutrien               |   ?    |  BKON   |  ROHL  | B   |         1 |       |
+| Macquarie Group       |   ?    |  FINZ   |  ROHL  | B   |         1 |       |
+| Xero                  |   ?    |  TECH   |  ROHL  | A   |         1 |       |
+| Alibaba               |   ?    |  TECH   |  SOFL  | C   |         2 |   +   |
+| Bayer                 | BAY001 |  GUPH   |  SOFL  | C   |         2 |   +   |
+| Siemens Energy        | ENER6E |  INMB   |  SOFL  | C   |         2 |   +   |
+| Kering                |   ?    |  LUXS   |  SOFL  | C   |         2 |       |
 
 ## Bemerkungen zu den einzelnen Titeln
 
  + **Schneider Electric**: Energieeffizienz und Industrieautomatisierung; globaler Qualitätswert
  + **Siemens AG**: Breiter Industriekonzern mit Automatisierung und Industrie-Software
- + **Equinor**: Norwegischer Öl- und Gasproduzent mit niedrigen Förderkosten
+ + **Equinor**: Norwegischer Öl- und Gasproduzent mit niedrigen Förderkosten; grundsätzlich attraktiv, aber EUGB und RENG sind bereits stark belegt, daher derzeit keine Kaufpriorität.
  + **SAP SE**: Europas führender ERP-Anbieter; hohe Wechselkosten und stabile Cloud-Umsätze
- + **Dassault Systèmes**: CAD/PLM-Weltmarktführer; Industrie-Software mit extrem hoher Kundenbindung
+ + **Dassault Systèmes**: CAD/PLM-Weltmarktführer; Industrie-Software mit extrem hoher Kundenbindung. Qualitativ attraktiv, aber wegen bereits hoher EUGB-Belegung derzeit nachrangig.
  + **Deutsche Telekom**: Europäischer Telekom-Anker mit zusätzlichem Wachstum über T-Mobile US
- + **Caterpillar**: Weltmarktfuehrer für Bau- und Bergbaumaschinen; stark zyklisch
+ + **Caterpillar**: Weltmarktführer für Bau- und Bergbaumaschinen; stark zyklisch. Guter Typ-B-Wert, aber USOA und INMB sind bereits gut gefüllt; derzeit nachrangig.
  + **Parker-Hannifin**: Motion-Control-, Hydraulik- und Automatisierungsspezialist; sehr hochwertiges Industriegeschäft
  + **Deere & Company**: Präzisionslandwirtschaft und Software; attraktiver als klassischer Baumaschinenbau
  + **Moody's**: Rating-Duopol gemeinsam mit S&P Global; sehr stabiles Geschäftsmodell
  + **CME Group**: Führender Terminbörsenbetreiber; profitiert von Handelsvolumen und Marktvolatilität
- + **UnitedHealth Group**: Diversifiziert USOA/GUPH gegenüber J&J in Richtung Krankenversicherung. Groesster US-Krankenversicherer; extrem robuster Typ A.
+ + **UnitedHealth Group**: Diversifiziert USOA/GUPH gegenüber J&J in Richtung Krankenversicherung. Operativ wieder stabiler, aber Medicare-/Regulierungs- und Versicherungsmargenrisiken sprechen gegen die bisherige Einstufung als extrem robuster Typ A; daher Typ B.
  + **Tencent Holdings**: China-Tech-Anker; WeChat-Monopol (als ein Messenger: Bezahlen, Behördengänge, Arzttermine, Shopping, Nachrichten) sichert Cashflows ab
  + **Zijin Mining**: Internationaler Gold- und Kupferproduzent; attraktiver als reiner Kohlewert
  + **China Shenhua Energy**: Integrierter Kohle- und Energiekonzern; langfristig politisch weniger attraktiv
  + **Sinopec**: Chinas führender Raffinerie- und Chemiekonzern; integrierter Energieversorger mit hoher Liquidität
  + **Enbridge**: Pipeline-Gigant Kanada; bringt ISTR in die Region ROHL
+ + **HDFC Bank**: Große indische Privatbank und grundsätzlich attraktiver SOIN/FINZ-Baustein. Wegen aktueller Governance- und Führungsunsicherheit vorerst keine Kaufpriorität und nicht mehr als Typ A geführt. WKN prüfen – TradeRepublic-Verfügbarkeit unbekannt
+ + **Hindustan Unilever**: Marktführer in FMCG auf dem indischen Subkontinent; lokale Stärke des Unilever-Konzerns. WKN prüfen – TradeRepublic-Verfügbarkeit unbekannt
+ + **Sea Limited**: Südostasiatischer Tech-Konzern (Gaming, E-Commerce, FinTech); eröffnet echtes Südostasien-Exposure neben Indien. Wegen Wachstums-, Wettbewerbs- und Bewertungsrisiken eher Typ C als klassisch zyklischer Typ B.
+ + **Reliance Industries**: Indisches Industrie-Konglomerat (Öl, Retail, Telekom); bringt breite Wachstumsstory. WKN prüfen – TradeRepublic-Verfügbarkeit unbekannt
+ + **Asian Paints**: Indiens dominanter Farbenhersteller; hohe Margen und starke Marktstellung im Premiumsegment. WKN prüfen – TradeRepublic-Verfügbarkeit unbekannt
+ + **Keyence**: Japanischer Sensor- und Automatisierungsspezialist; außergewöhnliche Margen und Preissetzungsmacht. Als Industrieautomation sachlich besser INMB als TECH; hochwertiger JPKT-Qualitätsanker und aktuell hohe Priorität.
+ + **Toyota Motor**: Weltgrößter Automobilhersteller; konservativer, kassenfüllender JPKT-Wert mit solider Dividende
+ + **Tokio Marine Holdings**: Japans führender Versicherer mit globalem Footprint; außergewöhnlich stabiler JPKT/FINZ-Wert. Öffnet eine bislang leere Matrixzelle und diversifiziert JPKT jenseits von Industrie und Technologie; aktuell hohe Priorität.
+ + **Samsung Electronics**: Südkoreas Technologiekern (Halbleiter, Smartphones, Display); eröffnet Korea-Exposure neben TSMC
+ + **Recruit Holdings**: Japanischer HR-Tech- und Jobbörsenkonzern (Indeed, Glassdoor); global skalierendes Plattformgeschäft aus JPKT
+ + **CSL Limited**: Australiens Biopharma-Champion und führend bei Plasmaproteinen. Nach schwachem FY26, Restrukturierung und Wertminderungen derzeit kein normaler Typ-A-Lückenfüller; vor einem Kauf gesondert prüfen, vorläufig Typ B und ohne Priorität.
+ + **Royal Bank of Canada**: Größte kanadische Bank; konservative Führung, stabile Dividende; ROHL-FINZ-Anker
+ + **Nutrien**: Weltgrößter Düngemittelproduzent (Potash, Stickstoff); zyklisch aber strukturell unverzichtbar für Ernährungssicherheit
+ + **Macquarie Group**: Australiens führende Investmentbank und Infrastruktur-Asset-Manager; global, aber klar ROHL-verwurzelt
+ + **Xero**: Neuseeländischer Cloud-Buchhaltungssoftware-Spezialist; Marktführer in ANZ, wächst in UK und USA
+ + **Alibaba**: Chinas E-Commerce- und Cloud-Gigant; nach Regulierungs-Reset ein Sonderfall mit Rebound-Potenzial; bewusst als Typ C / SOFL eingestuft. WKN prüfen (HK-Listing bevorzugt)
+ + **Bayer**: Ehemaliger Qualitätswert, belastet durch Glyphosat-Klagen; Typ C / SOFL als Turnaround-Wette auf Pharma-Neubewertung
+ + **Siemens Energy**: Energiewende-Infrastruktur mit Windturbinen-Altlasten (Gamesa); Sonderfall mit hohem Hebel auf gelingende Integration
+ + **Kering**: Luxuskonglomerat (Gucci, Saint Laurent, Bottega Veneta); unter Druck wegen Gucci-Schwäche; Typ C / SOFL als Turnaround-Kandidat. WKN prüfen
 
 ## Ehemalige Titel
 
@@ -374,6 +412,8 @@ Beispiele:
 | Mindray Bio-Medical | A2PG6H |  GUPH   |  CINA  |  A  |
 | China Mobile        | 909622 |  ISTR   |  CINA  |  B  |
 | Iberdrola           | A0M46B |  RENG   |  EUGB  |  A  |
+| ITC Limited         | A0HF08 |  BKON   |  SOIN  |  B  |
+| Sun Pharmaceutical  | A0YGWC |  GUPH   |  SOIN  |  B  |
 
 ## Bemerkungen zu den einzelnen Titeln
 
@@ -381,6 +421,8 @@ Beispiele:
  + **Mindray Bio-Medical**: HANDEL AUSGESETZT (bei TradeRepublic). Chinas Medizintechnik-Marktführer; hochsolider Typ-A-Wert
  + **China Mobile**: HANDEL AUSGESETZT (bei TradeRepublic). Aktivierung Bank; Regulierte, solide China-Cashflows
  + **Iberdrola**: HANDEL AUSGESETZT (bei TradeRepublic). Europas führender Netz- und Erneuerbare-Energien-Konzern
+ + **Sun Pharmaceutical**: TITEL NICHT GEFUNDEN (bei TradeRepublic). Indiens größter Pharmahersteller mit globaler Generika-Reichweite; defensiver als Biotech. Schließt die leere SOIN/GUPH-Zelle und stärkt den untergewichteten Gesundheitsblock; aktuell hohe Priorität. WKN prüfen – TradeRepublic-Verfügbarkeit unbekannt
+ + **ITC Limited**: TITEL NICHT GEFUNDEN (bei TradeRepublic). Diversifizierter indischer Konzern mit starkem FMCG- und Tabakgeschäft; stabile Cashflows. Strategisch besonders passend, weil SOIN/BKON leer ist und Typ B untergewichtet ist; aktuell hohe Priorität. WKN prüfen – TradeRepublic-Verfügbarkeit unbekannt
 
 ### Regionen-Branchen-Matrix
 
