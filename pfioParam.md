@@ -1,4 +1,4 @@
-| Name                           | Kurz   | Symbol  |  WKN   | Branche | Region | Typ |
+| Name                           |  Kurz  | Symbol  |  WKN   | Branche | Region | Typ |
 | :----------------------------- | :----: | :------ | :----: | :-----: | :----: | :-: |
 | MSCI Emerging Markets USD Dist | MSCIEM | XEMD.DE | DBX0RB |         |        | ETF |
 | Novo Nordisk                   | NOVNOR | NOV.F   | A3EU6F |  GUPH   |  EUGB  |  A  |
@@ -61,3 +61,8 @@
 | Colgate-Palmolive              | COLGAT | CPA.F   | 850667 |  BKON   |  USOA  |  A  |
 | JPMorgan Chase                 | JPMORG | CMC.F   | 850628 |  FINZ   |  USOA  |  A  |
 | Diageo                         | DIAGEO | GUI.F   | 851247 |  BKON   |  EUGB  |  A  |
+| Inpex                          | INPXJP | I8U.F   | A0JD4G |  RENG   |  JPKT  |  B  |
+| Reliance Industries            | RELIAN | RLI.F   | 884241 |  RENG   |  SOIN  |  B  |
+| Loblaw Companies               | LOBLAW | L8G.F   | 853286 |  BKON   |  ROHL  |  A  |
+| Tokio Marine                   | TOKMAR | MH6.F   | 542064 |  FINZ   |  JPKT  |  A  |
+| Magna International            | MAGINT | MGA.F   | 868610 |  LUXS   |  ROHL  |  B  |

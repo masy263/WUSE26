@@ -84,6 +84,11 @@ D:  0
 | Colgate-Palmolive              | 850667 | BKON | USOA |  A  | 06/12 (     ) | 15/25 (     ) | 2/3 (     ) | 27/50 (     ) |
 | JPMorgan Chase                 | 850628 | FINZ | USOA |  A  | 06/12 (     ) | 16/25 (     ) | 3/3 (     ) | 28/50 (     ) |
 | Diageo                         | 851247 | BKON | EUGB |  A  | 07/12 (     ) | 21/30 (     ) | 4/4 (     ) | 29/50 (     ) |
+| Inpex                          | A0JD4G | RENG | JPKT |  B  |     14/18     |               |             |     23/35     |
+| Reliance Industries            | 884241 | RENG | SOIN |  B  |     15/18     |               |             |     24/35     |
+| Loblaw Companies               | 853286 | BKON | ROHL |  A  |     09/12     |               |             |     33/50     |
+| Tokio Marine                   | 542064 | FINZ | JPKT |  A  |     10/12     |               |             |     37/50     |
+| Magna International            | 868610 | LUXS | ROHL |  B  |     08/08     |               |             |     33/35     |
 
 # Zu kaufende Titel (Handelbarkeit geprueft)
 
@@ -95,15 +100,11 @@ D:  0
 | Equinor              | 675213 | RENG | EUGB | B   |  11/18  |        |       | 20/35 |
 | Shell                | A3C99G | RENG | EUGB | B   |  12/18  |        |       | 21/35 |
 | Zijin Mining         | A0M4ZR | RENG | CINA | B   |  13/18  |        |       | 22/35 |
-| Inpex                | A0JD4G | RENG | JPKT | B   |  14/18  |        |       | 23/35 |
-| Reliance Industries  | 884241 | RENG | SOIN | B   |  15/18  |        |       | 24/35 |
 | PepsiCo              | 851995 | BKON | USOA | A   |  08/12  |        |       | 32/50 |
-| Loblaw Companies     | 853286 | BKON | ROHL | A   |  09/12  |        |       | 33/50 |
 | Wilmar International | A0KEWL | BKON | SOIN | B   |  10/12  |        |       | 25/35 |
 | Allianz              | 840400 | FINZ | EUGB | A   |  07/12  |        |       | 34/50 |
 | Munich Re            | 843002 | FINZ | EUGB | A   |  08/12  |        |       | 35/50 |
 | AIA Group            | A1C7F3 | FINZ | CINA | A   |  09/12  |        |       | 36/50 |
-| Tokio Marine         | 542064 | FINZ | JPKT | A   |  10/12  |        |       | 37/50 |
 | Royal Bank of Canada | 852173 | FINZ | ROHL | A   |  11/12  |        |       | 38/50 |
 | Roche                | 851311 | GUPH | EUGB | A   |  06/12  |        |       | 39/50 |
 | AstraZeneca          | 886455 | GUPH | EUGB | A   |  07/12  |        |       | 40/50 |
@@ -121,7 +122,6 @@ D:  0
 | Dr. Reddy's          | 659157 | GUPH | SOIN | B   |  10/12  |        |       | 31/35 |
 | WiseTech Global      | A2AGET | TECH | ROHL | B   |  12/12  |        |       | 32/35 |
 | WSP Global           | A1XBPS | INMB | ROHL | A   |  15/18  |        |       | 47/50 |
-| Magna International  | 868610 | LUXS | ROHL | B   |  08/08  |        |       | 33/35 |
 |                      |        | INMB | ROHL |     |         |        |       |       |
 |                      |        | INMB | SOIN |     |         |        |       |       |
 |                      |        | RENG | USOA |     |         |        |       |       |

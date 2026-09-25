@@ -219,3 +219,17 @@
 | 260910 | GB  |        |             |           |     |    +0.03 | Dividende unbekannter Aktie |
 | 260911 | VK  | A2P7ML |    2.203125 |   40.8000 | EUR |   +76.08 | Tsakos Energy               |
 | 260911 | GB  |        |             |           |     |    +0.37 | Steuerkorrektur             |
+| 260918 | DD  | 893094 |    5.328125 |    0.3700 | USD |    +1.05 | Posco                       |
+| 260919 | DD  | A41NM1 |    5.843750 |    0.4000 | GBP |    +2.01 | Unilever                    |
+| 260921 | EK  | 866993 |    1.875000 |   31.3000 | EUR |   -59.69 | NIKE                        |
+| 260921 | EK  | A0JD4G |   13.750000 |   22.0100 | EUR |  -303.64 | Inpex RENG JPKT B I8U.F     |
+| 260921 | EK  | 884241 |    6.593750 |   45.6000 | EUR |  -301.68 | Reliance RENG SOIN B RLI.F  |
+| 260921 | EK  | 853286 |    7.765625 |   38.8000 | EUR |  -302.31 | Loblaw BKON ROHL A L8G.F    |
+| 260921 | EK  | 542064 |    6.562500 |   46.3150 | EUR |  -304.94 | TokioMarine FINZ JPKT A MH6 |
+| 260921 | EK  | 868610 |    5.421875 |   55.3600 | EUR |  -301.16 | Magna Int. LUXS ROHL B MAG  |
+| 260923 | DD  | A0H0Y6 |  160.000000 |    0.0600 | EUR |    +5.79 | Piaggio                     |
+| 260924 | DD  | A0M8PX |    1.468750 |    0.6100 | CAD |    +0.35 | Franco Nevada               |
+| 260925 | DD  | 893579 |    1.562500 |    0.9500 | USD |    +0.96 | Waste Management            |
+| 260925 | DD  | 923893 |   25.000000 |    0.7800 | HKD |    +1.62 | HSBC                        |
+| 260925 | DD  | 850524 |    7.953125 |    1.3800 | AUD |    +4.99 | BHP Billiton                |
+| 260925 | DD  | 855018 |    3.109375 |    2.9600 | AUD |    +4.19 | RioTinto                    |
