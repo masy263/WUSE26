@@ -8,6 +8,8 @@ from pathlib import Path
 
 # parameters
 
+WHILE_INTERUPT = 10000
+
 PATH_OUTPUT_DATA = "data/"
 
 INITIAL_TARGET_VALUE = 300
@@ -104,6 +106,20 @@ def fct_readPfioParameters(fname):
 
   with open(fname, "r") as fid:
     inpLines = fid.readlines()
+
+  it = 0
+  while inpLines[0][0] != "|" and it < WHILE_INTERUPT:
+    inpLines = inpLines[1:]
+    it += 1
+
+  if it >= WHILE_INTERUPT: print("Warning: Reached WHILE_INTERUPT")
+
+  it = 0
+  while inpLines[-1][0] != "|" and it < WHILE_INTERUPT:
+    inpLines = inpLines[:-1]
+    it += 1
+
+  if it >= WHILE_INTERUPT: print("Warning: Reached WHILE_INTERUPT")
 
   inpIndx = inpLines[0][1:-2].replace(" ", "").split("|")
   inpData = inpLines[2:]

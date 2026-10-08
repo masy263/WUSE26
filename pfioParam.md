@@ -66,3 +66,15 @@
 | Loblaw Companies               | LOBLAW | L8G.F   | 853286 |  BKON   |  ROHL  |  A  |
 | Tokio Marine                   | TOKMAR | MH6.F   | 542064 |  FINZ   |  JPKT  |  A  |
 | Magna International            | MAGINT | MGA.F   | 868610 |  LUXS   |  ROHL  |  B  |
+| Shell                          | MUSHEL | R6C0.F  | A3C99G |  RENG   |  EUGB  |  B  |
+| Parker-Hannifin                | PARKER | PAR.F   | 855950 |  INMB   |  USOA  |  A  |
+| BYD                            | BYDCAR | By6.F   | A0M4W9 |  LUXS   |  CINA  |  B  |
+| Deutsche Telekom               | TELKOM | DTE.F   | 555750 |  ISTR   |  EUGB  |  A  |
+| Allianz                        | ALIANZ | ALV.F   | 840400 |  FINZ   |  EUGB  |  A  |
+| WSP Global                     | WSPGLB | 1W3.F   | A1XBPS |  INMB   |  ROHL  |  A  |
+| UnitedHealth Group             | UNHGRP | UNH.F   | 869561 |  GUPH   |  USOA  |  B  |
+| China Mengniu                  | MENGIU | EZQ.F   | A0B5T9 |  BKON   |  CINA  |  B  |
+| Wilmar International           | WILMAR | RTHA.F  | A0KEWL |  BKON   |  SOIN  |  B  |
+| AIA Group                      | AIAGRP | 7A2.F   | A1C7F3 |  FINZ   |  CINA  |  A  |
+
+

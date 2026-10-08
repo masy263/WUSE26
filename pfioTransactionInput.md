@@ -225,7 +225,7 @@
 | 260921 | EK  | A0JD4G |   13.750000 |   22.0100 | EUR |  -303.64 | Inpex RENG JPKT B I8U.F     |
 | 260921 | EK  | 884241 |    6.593750 |   45.6000 | EUR |  -301.68 | Reliance RENG SOIN B RLI.F  |
 | 260921 | EK  | 853286 |    7.765625 |   38.8000 | EUR |  -302.31 | Loblaw BKON ROHL A L8G.F    |
-| 260921 | EK  | 542064 |    6.562500 |   46.3150 | EUR |  -304.94 | TokioMarine FINZ JPKT A MH6 |
+| 260921 | EK  | 542064 |   98.437500 |    3.0877 | EUR |  -304.94 | TokioMarine FINZ JPKT A MH6 |
 | 260921 | EK  | 868610 |    5.421875 |   55.3600 | EUR |  -301.16 | Magna Int. LUXS ROHL B MAG  |
 | 260923 | DD  | A0H0Y6 |  160.000000 |    0.0600 | EUR |    +5.79 | Piaggio                     |
 | 260924 | DD  | A0M8PX |    1.468750 |    0.6100 | CAD |    +0.35 | Franco Nevada               |
@@ -233,3 +233,17 @@
 | 260925 | DD  | 923893 |   25.000000 |    0.7800 | HKD |    +1.62 | HSBC                        |
 | 260925 | DD  | 850524 |    7.953125 |    1.3800 | AUD |    +4.99 | BHP Billiton                |
 | 260925 | DD  | 855018 |    3.109375 |    2.9600 | AUD |    +4.19 | RioTinto                    |
+| 260928 | EK  | A3C99G |    7.062500 |   42.5250 | EUR |  -301.33 | Shell EUGB RENG B R6C0.F    |
+| 260928 | EK  | 855950 |    0.343750 |  855.2000 | EUR |  -294.98 | Park.Han. USOA INMB A PAR.F |
+| 260928 | EK  | A0M4W9 |   34.359375 |    8.7640 | EUR |  -302.13 | BYD CINA LUXS B BY6.F       |
+| 260928 | EK  | 555750 |   11.203125 |   26.8200 | EUR |  -301.47 | Telekom EUGB ISTR A DTE.F   |
+| 260928 | EK  | 840400 |    0.687500 |  427.6000 | EUR |  -294.98 | Allianz EUGB FINZ A ALV.F   |
+| 260930 | DD  | 897879 |    3.031250 |    0.9200 | CAD |    +1.11 | Canadian National Railway   |
+| 260930 | DD  | A3DTTK |   18.000000 |    0.1600 | USD |    +1.90 | Permian Ressources          |
+| 261001 | DD  | 866993 |    7.734375 |    0.4100 | USD |    +2.07 | Nike                        |
+| 261002 | DD  | 850727 |    3.921875 |    0.9000 | EUR |    +2.63 | Total Energies              |
+| 261006 | EK  | A1XBPS |    2.875000 |  104.0000 | EUR |  -302.88 | WSP Glob. ROHL INMB A 1W3.F |
+| 261006 | EK  | 869561 |    0.890625 |  333.0000 | EUR |  -297.93 | United Health USOA GUPH B   |
+| 261006 | EK  | A0B5T9 |  159.593750 |    1.8915 | EUR |  -319.61 | Mengniu CINA BKON B EZQ.F   |
+| 261006 | EK  | A0KEWL |  124.171875 |    2.4160 | EUR |  -312.42 | Wilmar SOIN BKON B RTHA.F   |
+| 261006 | EK  | A1C7F3 |   38.625000 |    7.7650 | EUR |  -304.48 | AIA Group CINA FINZ A 7A2.F |

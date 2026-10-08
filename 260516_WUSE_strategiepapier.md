@@ -47,7 +47,7 @@ Die Werte sind stark abhängig vom Konjunkturzyklus. Die Unternehmen sind stark 
 
  + Diese Werte sollen 15 % des Portfolios ausmachen.
  + Diese Werte dürfen maximal **einmal in Folge** nachgekauft werden. *Die Nachkaufzählung wird nur zurückgesetzt, wenn ein Verkauf stattgefunden hat*
- + Liegt der Wert einer Position 20 % unter dem Zielwert, wird in Höhe von 50 % der Differenz zum Zielwert nachgekauft. *Die Nachkaufsumme muss mindestens 50 EUR betragen.*
+ + Liegt der Wert einer Position 10 % unter dem Zielwert, wird in Höhe von 50 % der Differenz zum Zielwert nachgekauft. *Die Nachkaufsumme muss mindestens 50 EUR betragen.*
  + Liegt der Wert einer Position 20 % über dem Zielwert, wird verkauft, bis der Zielwert erreicht ist.
  + Der Nachkauf erfolgt nach kurzer Rücksprache mit KI, um zu prüfen, ob existenzielle Probleme vorliegen könnten.
 
@@ -127,8 +127,7 @@ Das Rückgrat der Realwirtschaft. Hier würde ich:
  + Automatisierung,
  + Logistik,
  + Bauzulieferer,
- + Industriegüter
-zusammenfassen.
+ + Industriegüter zusammenfassen.
 
 Beispiele:
  + Komatsu

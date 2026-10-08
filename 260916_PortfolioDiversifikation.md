@@ -89,39 +89,39 @@ D:  0
 | Loblaw Companies               | 853286 | BKON | ROHL |  A  |     09/12     |               |             |     33/50     |
 | Tokio Marine                   | 542064 | FINZ | JPKT |  A  |     10/12     |               |             |     37/50     |
 | Magna International            | 868610 | LUXS | ROHL |  B  |     08/08     |               |             |     33/35     |
+| Shell                          | A3C99G | RENG | EUGB |  B  |     12/18     |               |             |     21/35     |
+| Parker-Hannifin                | 855950 | INMB | USOA |  A  |     13/18     |               |             |     31/50     |
+| BYD                            | A0M4W9 | LUXS | CINA |  B  |     06/08     |               |             |     28/35     |
+| Deutsche Telekom               | 555750 | ISTR | EUGB |  A  |     07/08     |               |             |     45/50     |
+| Allianz                        | 840400 | FINZ | EUGB |  A  |     07/12     |               |             |     34/50     |
+| WSP Global                     | A1XBPS | INMB | ROHL |  A  |     15/18     |               |             |     47/50     |
+| UnitedHealth Group             | 869561 | GUPH | USOA |  B  |     08/12     |               |             |     26/35     |
+| China Mengniu                  | A0B5T9 | BKON | CINA |  B  |     11/12     |               |             |     30/35     |
+| Wilmar International           | A0KEWL | BKON | SOIN |  B  |     10/12     |               |             |     25/35     |
+| AIA Group                      | A1C7F3 | FINZ | CINA |  A  |     09/12     |               |             |     36/50     |
 
 # Zu kaufende Titel (Handelbarkeit geprueft)
 
 | Name                 |  WKN   | Bra. | Reg. | Typ | Branche | Region | Komb. |  Typ  |
 | :------------------- | :----: | :--: | :--: | --- | :-----: | :----: | :---: | :---: |
+| Royal Bank of Canada | 852173 | FINZ | ROHL | A   |  11/12  |        |       | 38/50 |
+| CSL                  | 890952 | GUPH | ROHL | B   |  09/12  |        |       | 27/35 |
+| Dr. Reddy's          | 659157 | GUPH | SOIN | B   |  10/12  |        |       | 31/35 |
+| WiseTech Global      | A2AGET | TECH | ROHL | B   |  12/12  |        |       | 32/35 |
+| Roche                | 851311 | GUPH | EUGB | A   |  06/12  |        |       | 39/50 |
 | Schneider Electric   | 860180 | INMB | EUGB | A   |  12/18  |        |       | 30/50 |
-| Parker-Hannifin      | 855950 | INMB | USOA | A   |  13/18  |        |       | 31/50 |
 | Deere & Company      | 850866 | INMB | USOA | B   |  14/18  |        |       | 19/35 |
 | Equinor              | 675213 | RENG | EUGB | B   |  11/18  |        |       | 20/35 |
-| Shell                | A3C99G | RENG | EUGB | B   |  12/18  |        |       | 21/35 |
 | Zijin Mining         | A0M4ZR | RENG | CINA | B   |  13/18  |        |       | 22/35 |
 | PepsiCo              | 851995 | BKON | USOA | A   |  08/12  |        |       | 32/50 |
-| Wilmar International | A0KEWL | BKON | SOIN | B   |  10/12  |        |       | 25/35 |
-| Allianz              | 840400 | FINZ | EUGB | A   |  07/12  |        |       | 34/50 |
 | Munich Re            | 843002 | FINZ | EUGB | A   |  08/12  |        |       | 35/50 |
-| AIA Group            | A1C7F3 | FINZ | CINA | A   |  09/12  |        |       | 36/50 |
-| Royal Bank of Canada | 852173 | FINZ | ROHL | A   |  11/12  |        |       | 38/50 |
-| Roche                | 851311 | GUPH | EUGB | A   |  06/12  |        |       | 39/50 |
 | AstraZeneca          | 886455 | GUPH | EUGB | A   |  07/12  |        |       | 40/50 |
-| UnitedHealth Group   | 869561 | GUPH | USOA | B   |  08/12  |        |       | 26/35 |
-| CSL                  | 890952 | GUPH | ROHL | B   |  09/12  |        |       | 27/35 |
 | SAP                  | 716460 | TECH | EUGB | A   |  09/12  |        |       | 41/50 |
 | Dassault Systèmes    | A3CRC5 | TECH | EUGB | A   |  10/12  |        |       | 42/50 |
 | Analog Devices       | 862485 | TECH | USOA | A   |  11/12  |        |       | 43/50 |
 | Home Depot           | 866953 | LUXS | USOA | A   |  05/08  |        |       | 44/50 |
-| BYD                  | A0M4W9 | LUXS | CINA | B   |  06/08  |        |       | 28/35 |
 | Toyota Motor         | 853510 | LUXS | JPKT | B   |  07/08  |        |       | 29/35 |
-| Deutsche Telekom     | 555750 | ISTR | EUGB | A   |  07/08  |        |       | 45/50 |
 | KDDI                 | 887603 | ISTR | JPKT | A   |  08/08  |        |       | 46/50 |
-| China Mengniu        | A0B5T9 | BKON | CINA | B   |  11/12  |        |       | 30/35 |
-| Dr. Reddy's          | 659157 | GUPH | SOIN | B   |  10/12  |        |       | 31/35 |
-| WiseTech Global      | A2AGET | TECH | ROHL | B   |  12/12  |        |       | 32/35 |
-| WSP Global           | A1XBPS | INMB | ROHL | A   |  15/18  |        |       | 47/50 |
 |                      |        | INMB | ROHL |     |         |        |       |       |
 |                      |        | INMB | SOIN |     |         |        |       |       |
 |                      |        | RENG | USOA |     |         |        |       |       |
@@ -147,7 +147,6 @@ Typen offen: A:4, B:6, C:6
 | ST Engineering      |        |  INMB   |  SOIN  |     |
 | Exxon Mobil         | 852549 |  RENG   |  USOA  |  B  |
 | Xero                | A2AB9T |  TECH   |  ROHL  |  A  |
-
 
 ## Ist-Anteile (zu kaufende Titel nicht beruecksichtigt)
 
