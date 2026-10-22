@@ -109,19 +109,19 @@ D:  0
 
 | Name                 |  WKN   | Bra. | Reg. | Typ | Branche | Region | Komb. |  Typ  |
 | :------------------- | :----: | :--: | :--: | --- | :-----: | :----: | :---: | :---: |
+| SAP                  | 716460 | TECH | EUGB | A   |  09/12  |        |       | 41/50 |
 | Schneider Electric   | 860180 | INMB | EUGB | A   |  12/18  |        |       | 30/50 |
+| Toyota Motor         | 853510 | LUXS | JPKT | B   |  07/08  |        |       | 29/35 |
+| KDDI                 | 887603 | ISTR | JPKT | A   |  08/08  |        |       | 46/50 |
+| Dassault Systèmes    | A3CRC5 | TECH | EUGB | A   |  10/12  |        |       | 42/50 |
 | Deere & Company      | 850866 | INMB | USOA | B   |  14/18  |        |       | 19/35 |
 | Equinor              | 675213 | RENG | EUGB | B   |  11/18  |        |       | 20/35 |
 | Zijin Mining         | A0M4ZR | RENG | CINA | B   |  13/18  |        |       | 22/35 |
 | PepsiCo              | 851995 | BKON | USOA | A   |  08/12  |        |       | 32/50 |
 | Munich Re            | 843002 | FINZ | EUGB | A   |  08/12  |        |       | 35/50 |
 | AstraZeneca          | 886455 | GUPH | EUGB | A   |  07/12  |        |       | 40/50 |
-| SAP                  | 716460 | TECH | EUGB | A   |  09/12  |        |       | 41/50 |
-| Dassault Systèmes    | A3CRC5 | TECH | EUGB | A   |  10/12  |        |       | 42/50 |
 | Analog Devices       | 862485 | TECH | USOA | A   |  11/12  |        |       | 43/50 |
 | Home Depot           | 866953 | LUXS | USOA | A   |  05/08  |        |       | 44/50 |
-| Toyota Motor         | 853510 | LUXS | JPKT | B   |  07/08  |        |       | 29/35 |
-| KDDI                 | 887603 | ISTR | JPKT | A   |  08/08  |        |       | 46/50 |
 |                      |        | INMB | ROHL |     |         |        |       |       |
 |                      |        | INMB | SOIN |     |         |        |       |       |
 |                      |        | RENG | USOA |     |         |        |       |       |
