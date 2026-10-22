@@ -11,8 +11,8 @@
 | TAKKT                          | TAKTAG | TTK.F   | 744600 |  INMB   |  EUGB  |  C  |
 | Mayr Melnhof Karton            | MMKRTN | MYM.F   | 890447 |  INMB   |  EUGB  |  B  |
 | Comcast (A)                    | COMCST | CTP2.F  | 157484 |  ISTR   |  USOA  |  A  |
-| Permian Resources (A)          | PRMRES | YZ8.F   | A3DTTK |  RENG   |  USOA  |  D  |
-| Tsakos Energy                  | TSAKOS | TK41.F  | A2P7ML |  RENG   |  SOFL  |  D  |
+| Permian Resources (A)          | PRMRES | YZ8.F   | A3DTTK |  RENG   |  USOA  |  C  |
+| Tsakos Energy                  | TSAKOS | TK41.F  | A2P7ML |  RENG   |  EUGB  |  C  |
 | HSBC                           | HSBCGB | HBC1.F  | 923893 |  FINZ   |  EUGB  |  A  |
 | OEKOWORLD                      | OEKOWD | VVV3.F  | 540868 |  FINZ   |  EUGB  |  D  |
 | Leifheit                       | LEIFHT | LEI.F   | 646450 |  BKON   |  EUGB  |  C  |
@@ -76,5 +76,11 @@
 | China Mengniu                  | MENGIU | EZQ.F   | A0B5T9 |  BKON   |  CINA  |  B  |
 | Wilmar International           | WILMAR | RTHA.F  | A0KEWL |  BKON   |  SOIN  |  B  |
 | AIA Group                      | AIAGRP | 7A2.F   | A1C7F3 |  FINZ   |  CINA  |  A  |
+| Royal Bank of Canada           | ROYBOC | RYC.F   | 852173 |  FINZ   |  ROHL  |  A  |
+| CSL                            | CSLLTD | CSJ.F   | 890952 |  GUPH   |  ROHL  |  B  |
+| Dr. Reddy's                    | DRREDY | RDDA.F  | 659157 |  GUPH   |  SOIN  |  B  |
+| WiseTech Global                | WISTEC | 17W.F   | A2AGET |  TECH   |  ROHL  |  B  |
+| Roche                          | ROCHCH | RHO.F   | 851311 |  GUPH   |  EUGB  |  A  |
+
 
 

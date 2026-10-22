@@ -5,8 +5,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 
-
-# parameters
+# --------------------------------------------------------------
+# PARAMETER
+# --------------------------------------------------------------
 
 WHILE_INTERUPT = 10000
 
@@ -44,7 +45,9 @@ PRICE_FILE = "priceList.csv"
 SHOW_NEAR_NK_TRANSACTION_THRES = 0.05
 SHOW_NEAR_VK_TRANSACTION_THRES = -0.05
 
-# transaction keys
+# --------------------------------------------------------------
+# TRANSACTION KEY
+# --------------------------------------------------------------
 
 NONE_WKN_DUMMY = "NO_WKN"
 NEXT_TRANSACTION = "nextTa"
@@ -76,13 +79,20 @@ TA_SUM = "sumTransaction"
 
 sumList = [EK_SUM, VK_SUM, DD_SUM, GB_SUM, TA_SUM]
 
+# --------------------------------------------------------------
 # title keys
+# --------------------------------------------------------------
 
 INITAL_TRANSACTION = "initTa"
 LAST_TRANSACTION   = "lastTa"
 TRANSACTION_HISTORY = "histTa"
 PRICE = "price"
 
+
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_readPfioParameters(fname):
   """
@@ -143,6 +153,10 @@ def fct_readPfioParameters(fname):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_readTransactionsFromFile(fname):
   nTransact    = 0
   transactions = dict()
@@ -173,6 +187,10 @@ def fct_readTransactionsFromFile(fname):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_linkTransactions(portfolio, transactions):
 
   for nr in transactions:
@@ -201,6 +219,10 @@ def fct_linkTransactions(portfolio, transactions):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_cummulateCnts(transactions):
 
   for nr in transactions:
@@ -227,6 +249,10 @@ def fct_cummulateCnts(transactions):
   return transactions
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_cummulateSums(transactions):
 
@@ -255,6 +281,10 @@ def fct_cummulateSums(transactions):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_cummulateAmountOfShares(transactions):
 
   for nr in transactions:
@@ -282,6 +312,10 @@ def fct_cummulateAmountOfShares(transactions):
   return transactions
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_targetValueCalculation(transactions, portfolio):
 
@@ -329,6 +363,10 @@ def fct_targetValueCalculation(transactions, portfolio):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_finalTargetValueCalculation(transactions, portfolio):
 
   for wkn in portfolio:
@@ -351,6 +389,10 @@ def fct_finalTargetValueCalculation(transactions, portfolio):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_setEkFlag(transactions, portfolio):
 
   for nr in transactions:
@@ -372,6 +414,10 @@ def fct_setEkFlag(transactions, portfolio):
   return transactions
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_calculatedNkThres(transactions, portfolio):
 
@@ -418,6 +464,10 @@ def fct_calculatedNkThres(transactions, portfolio):
   return transactions
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_calculatedVkThres(transactions, portfolio):
 
@@ -469,6 +519,10 @@ def fct_calculatedVkThres(transactions, portfolio):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_printTransaction(transaction, sum):
   amntTa =  transaction["N"].replace(".","")
   if amntTa == "": amntTa = 0
@@ -494,6 +548,10 @@ def fct_printTransaction(transaction, sum):
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_printTransactions(transactions):
   cummulatedSum = 0
   outStr        = "Datum   Typ  N-TA         N-SUM        Kurs       WRG  Pos        Sum\n"
@@ -507,6 +565,10 @@ def fct_printTransactions(transactions):
   return outStr
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_exportTransactionsOfEachTitle(transactions, portfolio, outFilePrefix=""):
 
@@ -527,6 +589,10 @@ def fct_exportTransactionsOfEachTitle(transactions, portfolio, outFilePrefix="")
 
 
 
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
+
 def fct_getCurrentPrice(ticker):
     stock = yf.Ticker(ticker)
 
@@ -542,6 +608,10 @@ def fct_getCurrentPrice(ticker):
     return float(price)
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_getCachedPrice(symbol, priceCache, now, maxAge=MAX_AGE_PRICE):
     """
@@ -575,6 +645,10 @@ def fct_getCachedPrice(symbol, priceCache, now, maxAge=MAX_AGE_PRICE):
     return int(float(price) * 1e4)
 
 
+
+# --------------------------------------------------------------
+#
+# --------------------------------------------------------------
 
 def fct_exportPortfolioStatus(transactions, portfolio, priceFile=PRICE_FILE, outFile=""):
 

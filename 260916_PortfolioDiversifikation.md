@@ -99,16 +99,16 @@ D:  0
 | China Mengniu                  | A0B5T9 | BKON | CINA |  B  |     11/12     |               |             |     30/35     |
 | Wilmar International           | A0KEWL | BKON | SOIN |  B  |     10/12     |               |             |     25/35     |
 | AIA Group                      | A1C7F3 | FINZ | CINA |  A  |     09/12     |               |             |     36/50     |
+| Royal Bank of Canada           | 852173 | FINZ | ROHL |  A  |     11/12     |               |             |     38/50     |
+| CSL                            | 890952 | GUPH | ROHL |  B  |     09/12     |               |             |     27/35     |
+| Dr. Reddy's                    | 659157 | GUPH | SOIN |  B  |     10/12     |               |             |     31/35     |
+| WiseTech Global                | A2AGET | TECH | ROHL |  B  |     12/12     |               |             |     32/35     |
+| Roche                          | 851311 | GUPH | EUGB |  A  |     06/12     |               |             |     39/50     |
 
 # Zu kaufende Titel (Handelbarkeit geprueft)
 
 | Name                 |  WKN   | Bra. | Reg. | Typ | Branche | Region | Komb. |  Typ  |
 | :------------------- | :----: | :--: | :--: | --- | :-----: | :----: | :---: | :---: |
-| Royal Bank of Canada | 852173 | FINZ | ROHL | A   |  11/12  |        |       | 38/50 |
-| CSL                  | 890952 | GUPH | ROHL | B   |  09/12  |        |       | 27/35 |
-| Dr. Reddy's          | 659157 | GUPH | SOIN | B   |  10/12  |        |       | 31/35 |
-| WiseTech Global      | A2AGET | TECH | ROHL | B   |  12/12  |        |       | 32/35 |
-| Roche                | 851311 | GUPH | EUGB | A   |  06/12  |        |       | 39/50 |
 | Schneider Electric   | 860180 | INMB | EUGB | A   |  12/18  |        |       | 30/50 |
 | Deere & Company      | 850866 | INMB | USOA | B   |  14/18  |        |       | 19/35 |
 | Equinor              | 675213 | RENG | EUGB | B   |  11/18  |        |       | 20/35 |
